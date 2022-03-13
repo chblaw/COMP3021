@@ -5,10 +5,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.io.Serializable;
 
-public class Folder implements Comparable<Folder>{
+public class Folder implements Comparable<Folder>, Serializable{
 	private ArrayList<Note> notes;
 	private String name;
+	private static final long serialVersionUID = 1L;
 	
 	public Folder(String name) {
 		this.name = name;
