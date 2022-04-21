@@ -12,13 +12,13 @@ public class testLab4 {
 		nb.createTextNote("Java", "course information", "Introduction to Java Programming. Fundamentals include language syntax, object-oriented programming, inheritance, interface, polymorphism, exception handling, multithreading and lambdas.");
 		nb.createTextNote("Lab", "Lab requirement","Each lab has 2 credits, 1 for attendence and the other is based the completeness of your lab.");
 		
-		nb.createImageNote("Course", "Time Tables");
-		nb.createImageNote("Assignment", "Assignment Lists");
-		nb.createImageNote("CSE", "Lab Session");
+//		nb.createImageNote("Course", "Time Tables");
+//		nb.createImageNote("Assignment", "Assignment Lists");
+//		nb.createImageNote("CSE", "Lab Session");
 		nb.createTextNote("Java", "marking scheme", "The quizzes and lab grades will be given based on your attendance in quizze and lab, respectively");
-		nb.createImageNote("Java", "java Attendance Checking");
+//		nb.createImageNote("Java", "java Attendance Checking");
 		
-		if(nb.save("test.ser")){
+		if(nb.save("test2.ser")){
 			System.out.println("saved notebook to file test.ser");
 		}else{
 			throw new Exception("Your code has some problems.......");
